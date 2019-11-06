@@ -6,10 +6,13 @@ Build:
 
 Push:
 =====
-TODO
+Log into docker with username and password
+(TODO: move this to cuplv org on dockerhub)
+./push.sh
 
 To use:
 =====
 Create your own docker file and add:
-(todo: dockerhub pull instructions)
-FROM cuplv_docker:1 
+```
+FROM shawnmeier/cuplv_docker:1
+```
